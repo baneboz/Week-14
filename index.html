@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiT Course | Week 14</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h2>Event Handlers from HTML</h2>
+    <button class="btn btn__toggle-bg">Toggle Background</button>
+    <button class="btn btn__turn-off">Turn Off</button>
+
+    <hr />
+
+    <h2>Event Handlers Defined on DOM Elements (Chat Room)</h2>
+    <div class="chat__container">
+      <div class="chat__display"></div>
+      <div class="chat__input">
+        <input type="text" id="msg" class="chat__msg" required />
+        <button class="btn btn__send">Send</button>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Events using eventListeners</h2>
+    <h3>Soccer player</h3>
+    <div class="football__field">
+      <img
+        src="img/Player.png"
+        alt="Football player"
+        width="60px"
+        height="60px"
+        class="football__player"
+      />
+    </div>
+    <button class="btn btn__stop-moving">Stop</button>
+    <hr />
+    <h3>Super Mario</h3>
+    <div class="mario__container">
+      <img
+        src="img/mario.png"
+        alt="Super awesome Mario"
+        class="mario__img"
+        width="64"
+        height="64"
+      />
+      <img
+        src="img/mario_running.gif"
+        alt="Super awesome Mario running"
+        class="mario__img--running hidden"
+        width="64"
+        height="64"
+      />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

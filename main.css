@@ -1,0 +1,40 @@
+body {
+  background-color: #ccc;
+}
+
+.dark-bg {
+  background-color: darkslateblue;
+}
+.chat__display {
+  background-color: white;
+  min-height: 300px;
+  margin-bottom: 1em;
+}
+
+.football__field {
+  width: 594px;
+  height: 392px;
+  background: url(img/Field.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.football__player {
+  position: absolute;
+}
+
+.mario__container {
+  width: 900px;
+  height: 480px;
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mario__img,
+.mario__img--running {
+  position: absolute;
+  left: calc(50% - 32px);
+  bottom: 64px;
+}
+.hidden {
+  display: none;
+}
