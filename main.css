@@ -21,14 +21,25 @@ body {
 .football__player {
   position: absolute;
 }
-
-.mario__container {
-  width: 900px;
-  height: 480px;
-  background: url(img/bg.jpg) no-repeat;
-  background-size: cover;
-  position: relative;
+.mario__wraper {
+  overflow: hidden;
 }
+.mario__container {
+  width: 1900px;
+  height: 480px;
+  background: url(img/bg.jpg) repeat-x;
+  /* background-size: cover; */
+  position: relative;
+  animation: slide 60s linear infinite;
+}
+/* @keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1000px, 0, 0);
+  }
+} */
 .mario__img,
 .mario__img--running {
   position: absolute;
@@ -37,4 +48,16 @@ body {
 }
 .hidden {
   display: none;
+}
+
+.gallery__item {
+  width: 150px;
+  height: 150px;
+}
+.gallery__item--large {
+  width: 300px;
+  height: 300px;
+}
+.border {
+  border: 1px solid red;
 }
